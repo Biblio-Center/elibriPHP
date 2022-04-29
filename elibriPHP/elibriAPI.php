@@ -122,7 +122,7 @@ class ElibriAPI {
   
     $this->login = $login;
     $this->password = $password;
-    if (isset($_host)) $this->host = $host;
+    if (isset($host)) $this->host = $host;
     
   }
 
